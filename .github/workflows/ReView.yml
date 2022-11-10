@@ -37,6 +37,7 @@ on:
 #          echo Add other actions to build,
 #          echo test, and deploy your project.
 
+
 jobs:
   Setup:
     runs-on: ubuntu-latest
@@ -54,8 +55,8 @@ jobs:
         run: rake pdf
       - uses: actions/upload-artifact@v3
         with:
-          name: n7152-pdf
-          path: n7152-AI-Kami-Eshi.*
+          name: pdf
+          path: book.pdf
           if-no-files-found: error
           retention-days: 90
 
@@ -70,7 +71,7 @@ jobs:
         run: rake epub
       - uses: actions/upload-artifact@v3
         with:
-          name: n7152-epub
-          path: n7152-AI-Kami-Eshi.*
+          name: epub
+          path: book.epub
           if-no-files-found: error
           retention-days: 90
