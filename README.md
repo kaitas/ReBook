@@ -1,5 +1,5 @@
 # ReBook
-Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテンプレート「[ReBook](https://github.com/kaitas/ReBook/)」です。
+Re:VIEW で本や卒論を書いてGitHub ActionsでPDFやePubを生成するテンプレート「[ReBook](https://github.com/kaitas/ReBook/)」です。
 
 - この[リンク](https://github.com/kaitas/ReBook/generate) から、お使いの GitHub アカウントで無料で利用できます。
 - リポジトリは[こちら](https://github.com/kaitas/ReBook/)です
