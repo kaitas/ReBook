@@ -19,7 +19,7 @@ Re:VIEWは、テキストファイルの原稿から
 
  * https://github.com/kmuto/review/blob/master/doc/format.ja.md
 
-===[column]
+===[/column]
 
 === 画像の入れ方
 
@@ -28,7 +28,7 @@ Re:VIEWは、テキストファイルの原稿から
 
 === プログラムリスト
 
-//list[main][main()][c]{    ←「main」が識別子で「main()」がキャプション
+//list[main][main()][c]{
 int
 main(int argc, char **argv)
 {
@@ -36,6 +36,9 @@ main(int argc, char **argv)
     return 0;
 }
 //}
+
+「main」が識別子で「main()」がキャプションです。
+
 
 === 脚注の入れ方
 
