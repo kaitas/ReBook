@@ -16,6 +16,7 @@ Re:VIEW で本や卒論を書いてGitHub ActionsでPDFやePubを生成するテ
 - rubyをインストールしない
 - Re:ViewもTeXもインストールしない
 - GitHub の Issue や Project を使って校正したり複数人でコラボレーションできる
+- GitHub Pages をつかって執筆内容の Webサイト を同時生成する
 - GitHub および Actions だけで完結する
 - できるだけ覚えることを少なくする（書くことに集中したいから）
 
@@ -28,7 +29,16 @@ Re:VIEW で本や卒論を書いてGitHub ActionsでPDFやePubを生成するテ
 5. 章やファイルを増やしたいときは `catalog.yml` を見ましょう
 6. Re:VIEWの書式がわからないときは[調べましょう](https://github.com/kmuto/review/blob/master/doc/format.ja.md)
 
-## 細かいことをしたいときは…
+## 注意事項
+
+### Webサイトの生成が不要な時は
+
+Jekyllを使ってWebサイトを自動生成して公開します。GitHub PagesによるHTML版の書籍も同時公開できますが、書籍によっては即時公開を望まない場合もあると思います。
+GitHub PagesによるWebサイト生成が不要な場合は
+
+- `.github/workflows/jekyll-gh-pages.yml` を削除してください
+
+### 細かいことをしたいときは…
 
 多くは `config.yml` で指定されているファイルです。
 

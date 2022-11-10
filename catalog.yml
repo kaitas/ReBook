@@ -6,7 +6,7 @@
 
 ## まえがき
 PREDEF:
-# - 00-preface.re #メタバース新書について。本書の読み方について。
+ - 00-preface.re
 
 ## 本文
 CHAPS:
@@ -20,7 +20,7 @@ APPENDIX:
 
 ## あとがき
 POSTDEF:
-# - 99-postface.re
+ - 99-postface.re
 ##
 ## 【Tips】
 ##
