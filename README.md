@@ -1,12 +1,11 @@
 # ReBook
-Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテンプレートです。
+Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテンプレート「[ReBook](https://github.com/kaitas/ReBook/)」です。
 
-- このリンク [https://github.com/kaitas/ReBook/generate] から、お使いの GitHub アカウントで無料で利用できます。
+- この[リンク](https://github.com/kaitas/ReBook/generate) から、お使いの GitHub アカウントで無料で利用できます。
 - リポジトリは[こちら](https://github.com/kaitas/ReBook/)です
 
 これで電車の中でも原稿が書けます！
-
-スマホで Git が使えるツール、例えば iPhone だと [Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) などが使えます。
+たとえばスマホで Git が使えるツール、iPhone/iPad だと [Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) や、本家GitHubクライアントなどが使えます。
 
 
 ## コンセプト
@@ -54,4 +53,6 @@ kauplanさんの [Re:VIEW Starter](https://kauplan.org/reviewstarter/) を参考
 - actions/upload-artifact@v3
 
 この場をお借りして感謝の意を述べさせていただきます。
+
+ - 白井暁彦 [@o_ob](https://twitter.com/o_ob)
 
