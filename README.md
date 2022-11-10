@@ -7,6 +7,7 @@ Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテ�
 これで電車の中でも原稿が書けます！
 たとえばスマホで Git が使えるツール、iPhone/iPad だと [Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) や、本家GitHubクライアントなどが使えます。
 
+なお拙著「[AIとコラボして神絵師になる 論文で読み解くStable Diffusion](https://ivtv.page.link/ap)」（Stable Diffusionの公開から2ヵ月で出版）は Re:VIEWを使って執筆しました。
 
 ## コンセプト
 
@@ -25,6 +26,7 @@ Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテ�
 3. git pushして
 4. Actionsから眺めていれば、ArtifactsにZIP圧縮された PDF や ePub ファイルが生成されます。
 5. 章やファイルを増やしたいときは `catalog.yml` を見ましょう
+6. Re:VIEWの書式がわからないときは[調べましょう](https://github.com/kmuto/review/blob/master/doc/format.ja.md)
 
 ## 細かいことをしたいときは…
 
@@ -40,19 +42,28 @@ Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテ�
 
 ## 参考資料
 
-kauplanさんの [Re:VIEW Starter](https://kauplan.org/reviewstarter/) を参考にしています。
+Re:VIEWを始めやすくするためのスタートラインとしては、kauplanさんの [Re:VIEW Starter](https://kauplan.org/reviewstarter/) を参考にしています。
 
 - https://kauplan.org/reviewstarter/
 - https://qiita.com/kauplan/items/d01e6e39a05be0b908a1
 
-ただし、Re:VIEW Starter では `Re:VIEW 3.0 や 4.0 はサポートしていません` と明言されていますので、本プロジェクトでは最新の Re:VIEW 5.5 でビルドするようにしています。
-また、GitHub Actions で以下のモジュールを使っています。
+ただし、Re:VIEW Starter では `Re:VIEW 3.0 や 4.0 はサポートしていません` と明言されていますので、本プロジェクトでは最新の Re:VIEW 5.5 を使って GitHub Actions でビルドするようにしています。
+vvakameさんありがとうございます。
 
 - docker://vvakame/review:5.5
+
+また、GitHub Actions で以下のモジュールを使っています。
+
 - actions/checkout@v3
 - actions/upload-artifact@v3
 
 この場をお借りして感謝の意を述べさせていただきます。
 
- - 白井暁彦 [@o_ob](https://twitter.com/o_ob)
+テンプレートとして公開しますが、フォークやプルリクエストなど歓迎です。
+
+Happy authoring life!
+
+ - 白井暁彦 [@o_ob](https://twitter.com/o_ob) [akihiko.shirai.as](https://akihiko.shirai.as/)
+
+
 
