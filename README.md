@@ -35,4 +35,4 @@ by Akihiko SHIRAI (@o_ob)
 多くは `config.yml` で指定されているファイルです。
 どうしても入手方法がわからない場合は、[Re:VIEW Starter](https://kauplan.org/reviewstarter/) で新規作成して見るとよいと思います。
 
-- coverimage: cover-a5.ai (表紙画像ファイル) `/images/DHP-Metaverse.ai` というファイルになっています。Adobe Illustratorで作成してください。
+- coverimage: cover-a5.ai (表紙画像ファイル) `/images/DHP-Metaverse.ai` というファイルになっています。Adobe Illustratorで作成してください（PDF互換形式）。
