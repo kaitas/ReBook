@@ -14,6 +14,19 @@ Re:Viewで本や卒論を書いてGitHub ActionsでPDFやePubを生成するテ�
 3. git pushして
 4. Actionsから眺めていれば、ArtifactsにPDFやePubが生成されます
 
+これで電車の中でも原稿が書けます！
+
+スマホで Git が使えるツール、例えば iPhone だと [Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) などが使えます。
+
+## 用意するもの
+
+多くは `config.yml` で指定されているファイルです。
+どうしても入手方法がわからない場合は、[Re:VIEW Starter](https://kauplan.org/reviewstarter/) で新規作成して見るとよいと思います。
+
+- coverimage: cover-a5.ai (表紙画像ファイル) `/images/DHP-Metaverse.ai` というファイルになっています。Adobe Illustratorで作成してください（PDF互換形式）。
+
+
+
 ## 参考資料
 
 kauplanさんの [Re:VIEW Starter](https://kauplan.org/reviewstarter/) を参考にしています。
@@ -28,11 +41,5 @@ kauplanさんの [Re:VIEW Starter](https://kauplan.org/reviewstarter/) を参考
 - actions/checkout@v3
 - actions/upload-artifact@v3
 
-by Akihiko SHIRAI (@o_ob)
+この場をお借りして感謝の意を述べさせていただきます。
 
-## 用意するもの
-
-多くは `config.yml` で指定されているファイルです。
-どうしても入手方法がわからない場合は、[Re:VIEW Starter](https://kauplan.org/reviewstarter/) で新規作成して見るとよいと思います。
-
-- coverimage: cover-a5.ai (表紙画像ファイル) `/images/DHP-Metaverse.ai` というファイルになっています。Adobe Illustratorで作成してください（PDF互換形式）。
